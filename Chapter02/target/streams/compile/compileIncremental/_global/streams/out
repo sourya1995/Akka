@@ -1,0 +1,57 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Wallet/Wallet.scala, ${BASE}/src/main/scala/Wallet/WalletApp.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/Wallet/WalletApp.scala, ${BASE}/src/main/scala/Wallet/Wallet.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 2 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 2 Scala sources to C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.9.0:compile for Scala 2.13.11
+[info] Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.11. Compiling...
+[debug] Creating plain compiler interface for 2.13.11.
+[debug]   > Arguments: 
+[debug] 	-d
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_6a661f7c
+[debug] 	-nowarn
+[debug] 	-bootclasspath
+[debug] 	C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.11\scala-library-2.13.11.jar
+[debug] 	-classpath
+[debug] 	C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.9.0\compiler-interface-1.9.0.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.9.0\util-interface-1.9.0.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-bridge_2.13\1.9.0\compiler-bridge_2.13-1.9.0-sources.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.11\scala-compiler-2.13.11.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.11\scala-reflect-2.13.11.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\scala\ZincCompat.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\API.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\AbstractZincFile.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\Analyzer.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\CallbackGlobal.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\ClassName.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\Compat.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\CompilerBridge.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\ConsoleBridge.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\DelegatingReporter.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\Dependency.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\ExtractAPI.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\ExtractUsedNames.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\GlobalHelpers.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\InteractiveConsoleBridge.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\InteractiveConsoleFactoryBridge.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\InteractiveConsoleHelper.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\InteractiveConsoleResponse.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\JarUtils.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\JavaUtils.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\LocalToNonLocalClass.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\LocateClassFile.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\Log.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\Message.scala
+[debug] 	C:\Users\malak\AppData\Local\Temp\sbt_8a37f4d3\xsbt\ScaladocBridge.scala
+[debug]       
+[info]   Compilation completed in 7.234s.
+[debug] [zinc] Running cached compiler 2ab61e50 for Scala compiler version 2.13.11
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.11\scala-library-2.13.11.jar
+[debug] 	-classpath
+[debug] 	C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\classes;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor-typed_2.13\2.8.2\akka-actor-typed_2.13-2.8.2.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.13\2.8.2\akka-actor_2.13-2.8.2.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_2.13\2.8.2\akka-slf4j_2.13-2.8.2.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\malak\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.13\1.0.0\scala-java8-compat_2.13-1.0.0.jar
+[debug] Scala compilation took 9.6688866 s
+[info] done compiling

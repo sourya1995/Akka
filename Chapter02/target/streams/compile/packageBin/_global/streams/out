@@ -1,0 +1,17 @@
+[debug] Packaging C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\chapter02_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	logback.xml
+[debug] 	  C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\classes\logback.xml
+[debug] 	Wallet
+[debug] 	  C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\classes\Wallet
+[debug] 	Wallet\Wallet$.class
+[debug] 	  C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\classes\Wallet\Wallet$.class
+[debug] 	Wallet\Wallet.class
+[debug] 	  C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\classes\Wallet\Wallet.class
+[debug] 	Wallet\WalletApp$.class
+[debug] 	  C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\classes\Wallet\WalletApp$.class
+[debug] 	Wallet\WalletApp$delayedInit$body.class
+[debug] 	  C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\classes\Wallet\WalletApp$delayedInit$body.class
+[debug] 	Wallet\WalletApp.class
+[debug] 	  C:\Users\malak\OneDrive\Desktop\Akka\Chapter02\target\scala-2.13\classes\Wallet\WalletApp.class
+[debug] Done packaging.

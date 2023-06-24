@@ -1,0 +1,5 @@
+[debug] > Exec(project Chapter02, None, None)
+[error] Not a valid project ID: Chapter02
+[error] project Chapter02
+[error]                  ^
+[debug] > Exec(idea-shell, None, None)
